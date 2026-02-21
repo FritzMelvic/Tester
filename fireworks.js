@@ -1074,7 +1074,7 @@ function valentineImageShell(size) {
   shell.burst = function (x, y) {
 
     const img = new Image();
-    img.src = `Annes/${currentPhotoIndex}.jpg`;
+    img.src = `Anne/${currentPhotoIndex}.jpg`;
     img.onerror = () => {
       console.log("GAMBAR GAGAL LOAD:", img.src);
     };
@@ -2451,3 +2451,4 @@ if (IS_HEADER) {
     });
   }, 0);
 }
+
